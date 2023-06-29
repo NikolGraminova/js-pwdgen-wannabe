@@ -23,5 +23,6 @@ ${userPassword}
 
 document.getElementById("nameUser").innerHTML = userName;
 document.getElementById("surnameUser").innerHTML = userSurname;
-document.getElementById("numberUser").innerHTML = userNumberRes;
+document.getElementById("numberUserOne").innerHTML = userNumberOne;
+document.getElementById("numberUserTwo").innerHTML = userNumberTwo;
 document.getElementById("passwordUser").innerHTML = userPassword;
