@@ -8,7 +8,7 @@ let userNumberTwo = parseInt(prompt("Enter your second number:"));
 
 let userNumberRes = userNumberOne / userNumberTwo;
 
-let userPassword = userName + userSurname + userNumberRes
+let userPassword = userName + userSurname + userNumberRes;
 
 console.log(` User data:
 
@@ -18,3 +18,10 @@ ${userNumberRes}
 ${userPassword}
 
 `);
+
+//Html IDs
+
+document.getElementById("nameUser").innerHTML = userName;
+document.getElementById("surnameUser").innerHTML = userSurname;
+document.getElementById("numberUser").innerHTML = userNumberRes;
+document.getElementById("passwordUser").innerHTML = userPassword;
